@@ -1,0 +1,8 @@
+function bmiCalc(weight, height)
+    {
+        var bmi = weight / (Math.pow(height,2));
+        return bmi;
+        
+    }
+
+bmiCalc(70, 1.7);
